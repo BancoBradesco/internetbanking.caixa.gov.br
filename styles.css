@@ -1,5 +1,5 @@
 header {
-    color: #fff;
+    background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -8,29 +8,32 @@ header {
 h1 {
     text-align: center;
     color: white;
-  }
+}
   
-  header nav ul {
+header nav ul {
+    text-decoration: none;
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center;
-  }
+}
   
-  header nav li {
+header nav li {
     display: inline-block;
     margin-right: 10px;
-  }
+}
   
-  header nav a {
-    color: white;
+header nav a {
+    font-size: 20px;
+    font-family: "Helvetica", sans-serif;
+    color: blue;
     text-decoration: none;
     font-weight: bold;
-  }
+}
   
-  header nav a:hover {
+header nav a:hover {
     text-decoration: underline;
-  }
+}
   
 
 body {
@@ -46,8 +49,8 @@ body {
   /* Estilos para a div redonda */
 .redondo {
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 300px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -156,7 +159,7 @@ h5 {
 
 p {
     color: white;
-    margin: 0;
+    margin: 2;
     font-size: 14px;
 }
 
